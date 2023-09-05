@@ -32,7 +32,8 @@ saldoVitorias = (saldoVitorias + 20)
 saldoDerrotas = (saldoDerrotas + 8)
 
 //exibindo o valor depois da variável nível receber valor
-console.log('O Herói tem saldo de ' + resultado + ' vitórias e está no nível de ' + nivel)
+//código alterado para add o uso de interpolação de strings
+console.log(`O Herói tem saldo de ${resultado} vitórias e está no nível de ${nivel}`)
 
 }while((saldoVitorias - saldoDerrotas) < 115)
 
